@@ -1,0 +1,29 @@
+{
+  "name": "babel-homework",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/zxPupipipuxz/babel-homework#readme",
+  "bugs": {
+    "url": "https://github.com/zxPupipipuxz/babel-homework/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zxPupipipuxz/babel-homework.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src -d dist"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.28.6",
+    "@babel/core": "^7.29.0",
+    "@babel/preset-env": "^7.29.0"
+  },
+  "dependencies": {
+    "core-js": "^3.48.0"
+  }
+}
